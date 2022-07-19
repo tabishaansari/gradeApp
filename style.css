@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-boxs;
+}
+
+body {
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background: radial-gradient(circle farthest-corner at center center, gray , rgb(250, 227, 227));
+}
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main-2 {
+    width: 70%;
+    flex-direction: column;
+}
+
+.main-inp {
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+}
+
+.haeding {
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.btn1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inp {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+label {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#btn {
+    letter-spacing: 3px;
+    background-color: #fff;
+    color: #000;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 28px;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    border: 3px solid black;
+}
+
+.lab {
+    width: 100%;
+}
+
+.result2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+}
+
+@media only screen and (max-width: 602px) {
+    .disp {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 376px) {
+    .main-inp {
+        font-size: 18px;
+    }
+}

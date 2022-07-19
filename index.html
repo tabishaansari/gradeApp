@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dosis:wght@300&family=Edu+QLD+Beginner:wght@700&family=IBM+Plex+Sans&family=IBM+Plex+Serif:wght@300&family=Inter:wght@100&family=Lato:wght@100&family=Lobster&family=Open+Sans&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Student Result Calculate</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="main-2">
+        <h1 class="haeding">Student Result Calculate</h1>
+        <br />
+        <br />
+        <form onsubmit="Resultcalculator(); return false;">
+          <div class="main-inp">
+            <label for="subject1" class="lab">Enter marks subject 1</label>
+            <label for="" class="disp"> / 100</label>
+            <input
+              type="number"
+              min="1"
+              max="100"
+              required
+              id="subject1Marks"
+              placeholder="Enter marks subject"
+              class="inp"
+            />
+          </div>
+
+          <div class="main-inp">
+            <label for="subject2" class="lab">Enter marks subject 2</label>
+            <label for="" class="disp"> / 100</label>
+            <input
+              type="number"
+              min="1"
+              max="100"
+              required
+              id="subject2Marks"
+              placeholder="Enter marks subject"
+              class="inp"
+            />
+          </div>
+
+          <div class="main-inp">
+            <label for="subject3" class="lab">Enter marks subject 3</label>
+            <label for="" class="disp"> / 100</label>
+            <input
+              type="number"
+              min="1"
+              max="100"
+              required
+              id="subject3Marks"
+              placeholder="Enter marks subject"
+              class="inp"
+            />
+          </div>
+
+          <div class="main-inp">
+            <label for="subject4" class="lab">Enter marks subject 4</label>
+            <label for="" class="disp"> / 100</label>
+            <input
+              type="number"
+              min="1"
+              max="100"
+              required
+              id="subject4Marks"
+              placeholder="Enter marks subject"
+              class="inp"
+            />
+          </div>
+
+          <div class="main-inp">
+            <label for="subject5" class="lab">Enter marks subject 5</label>
+            <label for="" class="disp"> / 100</label>
+            <input
+              type="number"
+              min="1"
+              max="100"
+              required
+              id="subject5Marks"
+              placeholder="Enter marks subject"
+              class="inp"
+            />
+          </div>
+
+          <div class="main-inp">
+            <label for="subject6" class="lab">Enter marks subject 6</label>
+            <label for="" class="disp"> / 100</label>
+            <input
+              type="number"
+              min="1"
+              max="100"
+              required
+              id="subject6Marks"
+              placeholder="Enter marks subject"
+              class="inp"
+            />
+          </div>
+
+          <div class="btn1">
+            <button type="submit" id="btn">Calculate</button>
+          </div>
+        </form>
+        <div class="result2">
+          <br />
+          <h4 id="totalSubjectMarks"></h4>
+          <br />
+          <h3 id="parsantage"></h3>
+          <h2 id="Grade"></h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
